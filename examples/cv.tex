@@ -19,6 +19,11 @@
 %-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, a4paper]{awesome-cv}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+\setCJKmainfont{Noto Sans Mono CJK TC} %xelatex 標楷體
 
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
@@ -53,24 +58,11 @@
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo{./examples/profile.png}
-\name{Claud D.}{Park}
-\position{Software Engineer{\enskip\cdotp\enskip}Security Expert}
-\address{246-1002, Gwangmyeongmayrouge Apt. 86, Cheongna lime-ro, Seo-gu, Incheon-si, 404-180, Rep. of KOREA}
-
-\mobile{(+82) 10-9030-1843}
-\email{posquit0.bj@gmail.com}
-\homepage{www.posquit0.com}
-\github{posquit0}
-\linkedin{posquit0}
-% \gitlab{gitlab-id}
-% \stackoverflow{SO-id}{SO-name}
-% \twitter{@twit}
-% \skype{skype-id}
-% \reddit{reddit-id}
-% \extrainfo{extra informations}
-
-\quote{``Be the change that you want to see in the world."}
-
+\name{張 逸}{}
+\position{Software Engineer{\enskip\cdotp\enskip}Data Scientist}
+\mobile{(+886) 926-520536}
+\email{black.heptagram@gmail.com}
+\github{j129008}
 
 %-------------------------------------------------------------------------------
 \begin{document}
@@ -79,14 +71,6 @@
 % Give optional argument to change alignment(C: center, L: left, R: right)
 \makecvheader
 
-% Print the footer with 3 arguments(<left>, <center>, <right>)
-% Leave any of these blank if they are not needed
-\makecvfooter
-  {\today}
-  {Claud D. Park~~~·~~~Curriculum Vitae}
-  {\thepage}
-
-
 %-------------------------------------------------------------------------------
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
@@ -94,12 +78,8 @@
 \input{cv/education.tex}
 \input{cv/skills.tex}
 \input{cv/experience.tex}
-\input{cv/extracurricular.tex}
 \input{cv/honors.tex}
-\input{cv/presentation.tex}
 \input{cv/writing.tex}
-\input{cv/committees.tex}
-
 
 %-------------------------------------------------------------------------------
 \end{document}
