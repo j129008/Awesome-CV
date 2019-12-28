@@ -1,6 +1,6 @@
 # latex resume
 ## install
-`bash
+```bash
 # install xeletax and fonts
 sudo apt-get install texlive-xetex texlive-math-extra fonts-font-awesome
 
@@ -10,4 +10,4 @@ cd ~/.fonts
 wget https://noto-website-2.storage.googleapis.com/pkgs/Noto-hinted.zip
 unzip Noto-hinted.zip
 fc-cache -f -v
-`
+```
