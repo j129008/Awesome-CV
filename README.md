@@ -1,13 +1,21 @@
-# latex resume
-## install
+# Latex Resume
+## install xeletax and fonts
+[Noto fonts official website](https://www.google.com/get/noto/help/install/)
 ```bash
 # install xeletax and fonts
 sudo apt-get install texlive-xetex texlive-math-extra fonts-font-awesome
 
-# install [noto fonts](https://www.google.com/get/noto/help/install/)
+# install noto fonts
 mkdir ~/.fonts
 cd ~/.fonts
 wget https://noto-website-2.storage.googleapis.com/pkgs/Noto-hinted.zip
 unzip Noto-hinted.zip
 fc-cache -f -v
+```
+
+## generate CV
+```bash
+# c++ work CV
+cd cpp
+xeletax cv.tex
 ```
