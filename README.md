@@ -13,9 +13,7 @@ unzip Noto-hinted.zip
 fc-cache -f -v
 ```
 
-## generate CV
+## compile tex file
 ```bash
-# c++ work CV
-cd cpp
 xeletax cv.tex
 ```
