@@ -1,5 +1,5 @@
 # Latex Resume
-## install xeletax and fonts
+## install xelatax and fonts
 [Noto fonts official website](https://www.google.com/get/noto/help/install/)
 ```bash
 # install xeletax and fonts
