@@ -15,5 +15,5 @@ fc-cache -f -v
 
 ## compile tex file
 ```bash
-xeletax cv.tex
+xelatax cv.tex
 ```
