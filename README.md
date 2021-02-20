@@ -3,7 +3,7 @@
 [Noto fonts official website](https://www.google.com/get/noto/help/install/)
 ```bash
 # install xeletax and fonts
-sudo apt-get install texlive-xetex texlive-math-extra fonts-font-awesome
+sudo apt-get install texlive-xetex texlive-math-extra fonts-font-awesome fontconfig
 
 # install noto fonts
 mkdir ~/.fonts
